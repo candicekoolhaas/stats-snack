@@ -1,0 +1,18 @@
+---
+title: "Resources"
+---
+
+[This Google folder](https://drive.google.com/drive/folders/18txK5o41YNqf4dtX3CXQ-ZCkAz-GcfVY?usp=drive_link) contains any cool papers or other things we talk about at meetings!
+
+Cool stats podcasts!\
+[Quantitude](https://quantitudepod.org/), [Casual Inference](https://casualinfer.libsyn.com/), [Nullius in Verba](https://nulliusinverba.podbean.com/) (about science in general)
+
+List of cool people doing interesting stuff regarding stats/experiment design\
+[Richard McElreath](https://xcelab.net/rm/)\
+[QuantPsych](https://simplistics.net/about-quantpsych/)\
+[Daniel Lakens](https://sites.google.com/site/lakens2/) and his blog, the [20% Statistician](https://daniellakens.blogspot.com/)\
+[Ben Bolker](https://ms.mcmaster.ca/~bolker/)\
+[Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
+
+Book recommendations!\
+[The Effect](https://theeffectbook.net/), [The Book of Why](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)

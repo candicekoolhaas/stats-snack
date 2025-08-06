@@ -2,6 +2,10 @@
 title: "stats-snack"
 ---
 
-This is a Quarto website.
+Stats Snack is a weekly meeting on Zoom for students and faculty at UMass Boston to discuss random topics, address questions, ask for advice, or attend/host workshops/talks related to statistics/anything data-related!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+See [here](https://docs.google.com/document/d/1U90DD1gmx9riJ2uYar72f_p2ifWZoKbu6zm7jRGefzI/edit?usp=sharing) for the weekly agenda.
+
+We are always looking for fun workshops and presentations. Also - it looks cool on a resume or CV to have a talk at a club about statistics 8) reach out to Candice (candice.koolhaas001\@umb.edu) if you have an idea for a topic or workshop, or if you have some fun educational links we can add to the website.
+
+Stats Snack 2025-2026 is hosted by [Candice Koolhaas](https://candicekoolhaas.github.io/), a PhD student in the Developmental and Brain Sciences program.
