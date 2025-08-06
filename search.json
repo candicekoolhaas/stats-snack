@@ -1,16 +1,16 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Google drive\nCool stats podcasts\nList of cool people doing interesting stuff regarding stats/experiment design"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "stats-snack",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Stats Snack!"
+    "text": "Stats Snack is a weekly meeting on Zoom for students and faculty at UMass Boston to discuss random topics, address questions, ask for advice, or attend/host workshops/talks related to statistics/anything data-related!\nSee here for the weekly agenda.\nWe are always looking for fun workshops and presentations. Also - it looks cool on a resume or CV to have a talk at a club about statistics 8) reach out to Candice (candice.koolhaas001@umb.edu) if you have an idea for a topic or workshop, or if you have some fun educational links we can add to the website.\nStats Snack 2025-2026 is hosted by Candice Koolhaas, a PhD student in the Developmental and Brain Sciences program."
   }
 ]
