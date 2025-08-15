@@ -12,7 +12,9 @@ List of cool people doing interesting stuff regarding stats/experiment design\
 [QuantPsych](https://simplistics.net/about-quantpsych/)\
 [Daniel Lakens](https://sites.google.com/site/lakens2/) and his blog, the [20% Statistician](https://daniellakens.blogspot.com/)\
 [Ben Bolker](https://ms.mcmaster.ca/~bolker/)\
-[Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
+[Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)\
+[David Spiegelhalter](https://www.dpmms.cam.ac.uk/~ds28/) and his open access [stats course](https://www.statslab.cam.ac.uk/Dept/People/djsteaching/teaching17.html) with [video lectures](https://www.youtube.com/playlist?list=PLTBqohhFNBE9jRhvdtnuxj9FiOtDOnqoy)!\
+[Mika Braginsky](https://mikabr.io/)
 
 Book recommendations!\
 [The Effect](https://theeffectbook.net/), [The Book of Why](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
