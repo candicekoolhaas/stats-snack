@@ -18,3 +18,9 @@ List of cool people doing interesting stuff regarding stats/experiment design\
 
 Book recommendations!\
 [The Effect](https://theeffectbook.net/), [The Book of Why](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
+
+ASA, online courses, other educational materials!\
+[ASA](https://www.amstat.org/) (student membership is only \$30 and you get access to free webinars and a magazine!)\
+[The Carpentries](https://carpentries.org/lessons/) *free* lessons on computational skills!\
+Great [free Python course](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) from MIT\
+The [UMB Center for Statistical Computing](https://www.umb.edu/admissions/graduate-students/graduate-students-assistantships/center-for-statistical-computing/) hosts workshops and can be contacted for stats help!
