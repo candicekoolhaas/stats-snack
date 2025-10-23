@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,6 +80,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Stats Snack</span>
     </a>
@@ -145,7 +148,18 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://www.dpmms.cam.ac.uk/~ds28/">David Spiegelhalter</a> and his open access <a href="https://www.statslab.cam.ac.uk/Dept/People/djsteaching/teaching17.html">stats course</a> with <a href="https://www.youtube.com/playlist?list=PLTBqohhFNBE9jRhvdtnuxj9FiOtDOnqoy">video lectures</a>!<br>
 <a href="https://mikabr.io/">Mika Braginsky</a></p>
 <p>Book recommendations!<br>
-<a href="https://theeffectbook.net/">The Effect</a>, <a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X">The Book of Why</a></p>
+<a href="https://theeffectbook.net/">The Effect</a>, <a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X">The Book of Why</a>, <a href="https://arxiv.org/pdf/2011.01808">Bayesian Workflow</a>, <a href="https://nyu-cdsc.github.io/learningr/assets/kruschke_bayesian_in_R.pdf">Doing Bayesian Analysis</a></p>
+<p>ASA, online courses, other educational materials!<br>
+<a href="https://www.amstat.org/">ASA</a> (student membership is only $30 and you get access to free webinars and a magazine!)<br>
+<a href="https://carpentries.org/lessons/">The Carpentries</a> <em>free</em> lessons on computational skills!<br>
+Great <a href="https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/">free Python course</a> from MIT<br>
+The <a href="https://www.umb.edu/admissions/graduate-students/graduate-students-assistantships/center-for-statistical-computing/">UMB Center for Statistical Computing</a> hosts workshops and can be contacted for stats help!<br>
+Jarrett’s advanced stats course is a <a href="https://biol609.github.io/schedule.html">bottomless pit of resources</a>!</p>
+<p>Fun datasets:<br>
+Chicago rat-hole dataset of <a href="https://rs.figshare.com/articles/dataset/Supplemental_Data_1_from_Rodent_indent_not_self-evident_a_case_of_mistaken_identity_of_the_Chicago_Rat_Hole_/30317790?backTo=%2Fcollections%2FSupplementary_material_from_Rodent_indent_not_self-evident_a_case_of_mistaken_identity_of_the_Chicago_Rat_Hole_%2F8079966&amp;file=58599510">rats</a><br>
+<a href="https://allisonhorst.github.io/palmerpenguins/">Palmer Penguins</a> (better than <a href="https://journal.r-project.org/articles/RJ-2022-020/RJ-2022-020.pdf">irises</a>!)</p>
+<p>Software-related:<br>
+<a href="https://pbs-assess.github.io/sdmTMB/">sdmTMB package</a> for patial and spatiotemporal GLMMs with TMB, <a href="https://www.r-inla.org/">R-INLA</a> for Bayesian inference (and <a href="https://inlabru-org.github.io/inlabru/index.html">inlabru</a> for more spatial modeling), <a href="https://mjskay.github.io/tidybayes/">tidybayes</a> for visualizing and modeling Bayesian things</p>
 
 
 
@@ -201,13 +215,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -222,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/candicekoolhaas\.github\.io\/stats-snack\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
