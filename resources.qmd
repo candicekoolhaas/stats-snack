@@ -34,4 +34,5 @@ Chicago rat-hole dataset of [rats](https://rs.figshare.com/articles/dataset/Supp
 
 Software-related:\
 [sdmTMB package](https://pbs-assess.github.io/sdmTMB/) for patial and spatiotemporal GLMMs with TMB, [R-INLA](https://www.r-inla.org/) for Bayesian inference (and [inlabru](https://inlabru-org.github.io/inlabru/index.html) for more spatial modeling), [tidybayes](https://mjskay.github.io/tidybayes/) for visualizing and modeling Bayesian things\
-Tutorial on [Shared Response Modeling](https://colab.research.google.com/drive/1vlVBE7s58yNgo921nPrnbIVpsbf89ocM?usp=sharing#scrollTo=HJ5hkPhXuN2-) (analysis method for pulling meaningful info from timeseries, EEG, fMRI, or eyetracking data)
+Tutorial on [Shared Response Modeling](https://colab.research.google.com/drive/1vlVBE7s58yNgo921nPrnbIVpsbf89ocM?usp=sharing#scrollTo=HJ5hkPhXuN2-) (analysis method for pulling meaningful info from timeseries, EEG, fMRI, or eyetracking data)\
+Tutorial on [using Github](https://happygitwithr.com/)!
