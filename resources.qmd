@@ -27,6 +27,7 @@ The [UMB Center for Statistical Computing](https://www.umb.edu/admissions/gradua
 Jarrett's advanced stats course is a [bottomless pit of resources](https://biol609.github.io/schedule.html)!\
 Recommended [IBM Python course](https://www.edx.org/learn/python/ibm-python-basics-for-data-science?index=product&queryId=2fd89abcbcdf0e50773df4d6a98b36c8&position=3)\
 Joe Blitzstein's [famous stats 101 course](https://stat110.hsites.harvard.edu/) (lots of resources here too!)
+Dr. Eugene Gallagher's [reproducible code[(https://github.com/EugeneGall/Wilkinson-Chance-figures) for his awesome talk on Outliers and Alcohol: Revisiting Wilkinson's Graphic Using State Mortality Data, Shrinkage, and Structural Equation Modeling!
 
 Fun datasets:\
 Chicago rat-hole dataset of [rats](https://rs.figshare.com/articles/dataset/Supplemental_Data_1_from_Rodent_indent_not_self-evident_a_case_of_mistaken_identity_of_the_Chicago_Rat_Hole_/30317790?backTo=%2Fcollections%2FSupplementary_material_from_Rodent_indent_not_self-evident_a_case_of_mistaken_identity_of_the_Chicago_Rat_Hole_%2F8079966&file=58599510)\
